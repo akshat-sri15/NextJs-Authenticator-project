@@ -1,7 +1,8 @@
 "use client";
 import Link from "next/link";
 import React from "react";
-
+import axios from "axios";
+import { useRouter } from "next/navigation";
 export default function SignupPage(){
     const [User, setUser] = React.useState({
         email: "",
@@ -10,12 +11,12 @@ export default function SignupPage(){
     });
 
     const onSignup = async () => {
-        
+
     }
 
     return(
         <div className="flex justify-center items-center min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
-            
+            x
             <div className="bg-white/10 backdrop-blur-lg p-8 rounded-2xl shadow-2xl w-[350px] flex flex-col gap-4 border border-white/20">
                 
                 <h1 className="text-3xl font-bold text-white text-center">
