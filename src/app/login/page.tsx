@@ -37,7 +37,7 @@ export default function LoginPage(){
 
     return(
         <div className="flex justify-center items-center min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
-            x
+            
             <div className="bg-white/10 backdrop-blur-lg p-8 rounded-2xl shadow-2xl w-[350px] flex flex-col gap-4 border border-white/20">
                 
                 <h1 className="text-3xl font-bold text-white text-center">
@@ -67,6 +67,12 @@ export default function LoginPage(){
                     Don't have an account?{" "}
                     <Link href="/signup" className="text-blue-400 hover:underline">
                         Sign Up
+                    </Link>
+                </p>
+                <p className="text-gray-300 text-sm text-center">
+                    Forgot your password?{" "}
+                    <Link href="/resetyourpassword" className="text-blue-400 hover:underline">
+                        Reset Password
                     </Link>
                 </p>
 
